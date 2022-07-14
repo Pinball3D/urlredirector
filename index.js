@@ -15,4 +15,4 @@ app.get("/get/:id", (req, res) => {
       })();
 })
 
-app.listen(process.env.port || 80);
+app.listen(process.env.PORT || 80);
